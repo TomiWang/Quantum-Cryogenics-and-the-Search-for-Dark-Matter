@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 mass = 1e-27  # Example particle mass in kg
 k_B = 1.38e-23  # Boltzmann constant in J/K
 temperature = 100  # Temperature in K
+velocities = np.linspace(0, 1e4, 1000)  # Velocity range from 0 to 10,000 m/s
 
 # Maxwell-Boltzmann distribution function
 def boltzmann_distribution(v):
