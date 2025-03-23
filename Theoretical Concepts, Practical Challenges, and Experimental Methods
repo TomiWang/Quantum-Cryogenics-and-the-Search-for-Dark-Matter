@@ -2,6 +2,7 @@
 Created on Sunday, February 9th, 2025 11:12 PM
 @Author: Tomi Wang :)
 
+
 Theorems:
 1. Boltzmann Distribution for Particle Interactions
    - Describes the particle interactions of dark matter which follows a probability distribution governed by the Boltzmann equation f(v) ∝ exp (-(mv^2)/(2kbT))
@@ -29,13 +30,60 @@ Theorems:
      preventing heat from reaching the cryogenic system.
    - Reflective coatings are just highly reflective metallic coatings like aluminum or gold applied to surfaces. They reduce emissivity meaning heat is radiated away.
 
+
 Mathematical Definitions:
 1. Quantum Noise and Energy Sensitivity
+   - Cryogenic detectors are used to find very tiny energy changes. Changes that occur when dark matter hits something.
+   - This is given by E = h * f
+   Where:
+         E = One photon (Energy of one quantum)
+         h = Planck's constant (6.626e-34 Js)
+         f = The frequency of how fast the wave is vibrating
+   - Cryogenic detectors allows us to reduce random heat movement (thermal noise) which is beneficial as it makes really small energy changes detectable. This gets us as close as possible to the smallest amount
+     of energy nature allows us to measure, the quantum limit.
+
+2. Thermal Noise Reduction
+   - All electronic circuits contain some level of natural noise. This is called thermal noise and it is caused by the movement of particles due to heat. This is known as the Johnson-Nyquist noise.
+   - This is given by Vn = sqrt(4 * k * T * R * deltaF)
+   Where:
+         Vn = Voltage noise
+         k = Boltzmann's constant
+         T = Temperature
+         R = Resistance
+         deltaf = Bandwidth (Range of frequencies the detectors analyze)
+   - This is another scenerio when we use cryogenic detectors. As temperature lowers, noise reduction occurs. Sensitivity of tiny signals are more detectable when there is less noise.
+
 
 Experimental Methods:
+1. Cryogenic Detectors in the XENON Experiment
+   - The XENON experiment is one of the world's leading dark matter detection projects. It uses liquid xenon as a torget for dark matter interactions. Cryogenics is crucial for this experiement as xenon must be
+     maintained near 165 K to keep it at liquid state.
+   - Weakly Interacting Massive Particle (WIMP), a hypothetical dark matter particle hits a xenon atom and will result in two outcomes.
+      - Scintillation light which is a tiny flash of light
+      - Ionization electrons is when electrons are released free
+   - Sensitive detectors such as Photomultiplier Tubes (PMTs) pick up faint light. The cryogenic temperatures assist with the visibility of these signals.
+   - Energy deposition is analyzed using: Edep = Escint + Eion
+   Where:
+         Edep = Total deposited energy
+         Escint = Energy associated with scintillation
+         Eion = Energy from ionization
+
+2. Superconducting Quantum Interference Devices (SQUIDs)
+   - Another highly used experimental projects for dark matter detection.
+   - This method is a high-precision measurement of weak magnetic fields potentially induced by axionic dark matter, another hypothetical extremely light subatomic particle.
+   - SQUIDs rely on a special quantum effect called Josephson effect. The magnetic field they detect is called magnetic flux Φ. An eelctric current with prcice quantum way given as Φ = (h/2e) * I
+   Where:
+         Φ = Magnetic flux
+         h = Planck's constant (6.626e-34 Js)
+         e = Electron charge
+         I = Phase difference, current
+   - This experiment would not work without cryogenics. Superconducting means no resistance and the goal for this experiment is for materials to be superconductive.
+   - At cryogenic temperatures quantum noise is minimized leaving devices to have very small changes in magnetic fields.
+   - XENON experiment may work but it wouldn't be nearly as effective or function properly.
 
 
 Technical Problems and Solutions
+
 
 
 Conclusion:
