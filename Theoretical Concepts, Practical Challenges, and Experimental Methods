@@ -83,11 +83,25 @@ Experimental Methods:
 
 
 Technical Problems and Solutions
+Problem 1 (Noise): Throughout the blog I have emphasized the important roles cryogenics play in dark matter detection. It minimizes noise from cosmic rays, envirnmental vibrations, thermal fluctuations, and
+           Enhances weak dark matter signals.
+Solution: Thermal noise can be reduced to near quantum limits. Shielding techniques such as underground placement and magnetic shielding creates an even more isolated experiment from external factors.
+
+Problem 2 (Signal Descimination): One of the most challenging tasks are differntiating true dark matter signals from background noise.
+Solution: SQUIDs and other similar experiments provide precise energy measurements and timing information.
+
+Problem 3 (Low Detection Rates): Hypothetical dark matter particles such as WIMP interact extremely weakly with ordinary matter. Interation rates as a result reduce becoming very low.
+Solution: Large scale detectors with high mass such as the XENON experimental project increase the probability of detecting these rare interactions between ordinary and dark matter. Cryogenics will ensure
+          energy deposited by dark matter particles is not lost to thermal noise.
 
 
+Conclusion & Feedback:
+We have reached the end of my introductory branch. Within this repository I have several computational models further explaining this topic.
+If there are any feedback and insights you would like to share from this blog I have provided my contact below.
+Email: tomi.wang@mail.utoronto.ca
+Linkedin: https://linkedin.com/in/tomi-wang-8586772a0
 
-Conclusion:
-
+Thank you for reading!
 
 References:
 Zurek, K. M. (2013). Asymmetric Dark Matter.
@@ -95,5 +109,6 @@ Aprile, E., et al. (2021). The XENON Dark Matter Project.
 Clarke, J., & Braginski, A. I. (2004). The SQUID Handbook.
 Boltzmann, L. (1896). Lectures on Gas Theory.
 
-Project ongoing.
+Project complete.
+Sunday, March 23rd, 2025 3:45 AM
 """
