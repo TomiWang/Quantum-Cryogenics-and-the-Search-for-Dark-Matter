@@ -3,7 +3,7 @@ Created on Sunday, February 9th, 2025 11:12 PM
 
 Quantum Cryogenics and the Search for Dark Matter
 
-Higher level introduction found in "Theoretical Concepts, Practical Challenges, and Experimental Methods" Branch
+Higher level introduction found in "Theoretical Concepts, Practical Challenges, and Experimental Methods" branch
 
 Introduction:
 Cryogenics, a topic in physics that studies what happens to things (e.g. materials and their properties) when the environment is at very low temperatures. Typically below -150C or -238F.
